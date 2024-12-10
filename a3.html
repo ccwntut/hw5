@@ -141,16 +141,16 @@
       <hr>
       <p class="s1">
         帳號：
-        <input class="s1" id="c1" type="text">
+        <input onkeyup="show()" class="s1" id="c1" type="text">
       </p>
       <p class="s1">
-        密碼：<input id="c2" type="password">
+        密碼：<input onkeyup="show()" id="c2" type="password">
       </p>
       <p class="s1">
-        生日：<input class="" id="c3" type="date">
+        生日：<input onchange="show()" class="" id="c3" type="date">
       </p>
       <p class="s1">
-        <input style="font-size: 25px;" onclick="show()" type="button" value="註冊">
+        <input disabled style="font-size: 25px;" onclick="show()" type="button" value="註冊">
       </p>
       <p class="s1" id="p1">
 
